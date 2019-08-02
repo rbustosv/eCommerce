@@ -10,8 +10,15 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
+
+body {
+    font-family: "Open Sans";
+    color: #808080;
+}
+@import "./variables.scss";
 @import "./layout.scss";
 @import "./headernavbar.scss";
 @import "./auth/signin.scss";
 @import "./auth/signup.scss";
 @import "./page-title.scss";
+@import "./form-fields.scss";
